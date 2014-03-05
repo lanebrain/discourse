@@ -52,7 +52,7 @@ else
   gem 'active_attr'
 end
 
-gem 'hiredis'
+# gem 'hiredis'
 gem 'redis', :require => ["redis", "redis/connection/hiredis"]
 
 gem 'active_model_serializers'
